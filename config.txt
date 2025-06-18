@@ -1,4 +1,4 @@
 <3 : udp.PayloadLength>= 20
-Ghost :udp.PayloadLength >= 50 && udp.PayloadLength <= 150
+<33 :udp.PayloadLength >= 50 && udp.PayloadLength <= 150
 <333 :udp.SrcPort >= 45000 && udp.DstPort <= 65535 && udp.PayloadLength >= 45
 <3333 :udp.PayloadLength>= 25 && udp.PayloadLength<= 200
